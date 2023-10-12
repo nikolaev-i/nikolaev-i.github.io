@@ -5,25 +5,6 @@
     <link>https://nikolaev-i.github.io/</link>
     <description>Recent content on Tech misAdventures</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 12 Oct 2023 12:36:24 +0300</lastBuildDate><atom:link href="https://nikolaev-i.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Azure gym</title>
-      <link>https://nikolaev-i.github.io/posts/azure_arm_and_bicep/</link>
-      <pubDate>Thu, 12 Oct 2023 12:36:24 +0300</pubDate>
-      
-      <guid>https://nikolaev-i.github.io/posts/azure_arm_and_bicep/</guid>
-      <description>Welcome to the Azure Gym I have to give it to Microsoft; their naming game is pretty good sometimes - ARM, Bicep. It feels like I&amp;rsquo;m going to the gym rather than writing infrastructure.
-So far, I&amp;rsquo;ve only used ARM templates for some tutorials, and oh boy, do I hate it - templates with JSON. People say you get used to it, but I&amp;rsquo;d rather not. Sure, everything works out of the box, and you don&amp;rsquo;t need to wait for Terraform/OpenTofu to implement new provider features.</description>
-      <content>&lt;h1 id=&#34;welcome-to-the-azure-gym&#34;&gt;Welcome to the Azure Gym&lt;/h1&gt;
-&lt;p&gt;I have to give it to Microsoft; their naming game is pretty good sometimes - ARM, Bicep. It feels like I&amp;rsquo;m going to the gym rather than writing infrastructure.&lt;/p&gt;
-&lt;p&gt;So far, I&amp;rsquo;ve only used ARM templates for some tutorials, and oh boy, do I hate it - templates with JSON. People say you get used to it, but I&amp;rsquo;d rather not. Sure, everything works out of the box, and you don&amp;rsquo;t need to wait for Terraform/OpenTofu to implement new provider features.&lt;/p&gt;
-&lt;p&gt;Now, Bicep is something &amp;ldquo;new&amp;rdquo; I would&amp;rsquo;ve ignored it if it wasn&amp;rsquo;t for the changes to AZ-104 that include Bicep in the exam. To be honest, it looks a lot like TF, so it might not be that bad.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m using MS Learn and ACG to study, and I&amp;rsquo;ll be writing notes and code on this journey to the Azure gym.&lt;/p&gt;
-&lt;h1 id=&#34;azure-resource-manager&#34;&gt;Azure resource manager&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;https://nikolaev-i.github.io/img/azure_gym/arm.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
-</content>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://nikolaev-i.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
