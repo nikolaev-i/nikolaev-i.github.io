@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ramblings on </title>
+    <link>https://blog.nik0.dev/ramblings/</link>
+    <description>Recent content in Ramblings on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 May 2025 22:03:51 +0300</lastBuildDate><atom:link href="https://blog.nik0.dev/ramblings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>https://blog.nik0.dev/ramblings/first_post/</link>
+      <pubDate>Tue, 20 May 2025 22:03:51 +0300</pubDate>
+      
+      <guid>https://blog.nik0.dev/ramblings/first_post/</guid>
+      <description>&lt;h1 id=&#34;test&#34;&gt;Test&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.nik0.dev/ramblings/first_post/Untitled.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;test&#34;&gt;Test&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.nik0.dev/ramblings/first_post/Untitled.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
