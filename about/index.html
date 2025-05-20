@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   
-    <title>404 Page not found :: </title>
+    <title>About :: </title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="https://blog.nik0.dev/404.html" />
+<link rel="canonical" href="https://blog.nik0.dev/about/" />
 
 
 
@@ -47,10 +47,10 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="404 Page not found">
+<meta property="og:type" content="article" />
+<meta property="og:title" content="About">
 <meta property="og:description" content="" />
-<meta property="og:url" content="https://blog.nik0.dev/404.html" />
+<meta property="og:url" content="https://blog.nik0.dev/about/" />
 <meta property="og:site_name" content="" />
 
   
@@ -60,6 +60,8 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 
+
+  <meta property="article:published_time" content="2025-05-20 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -148,15 +150,58 @@
 
 
   <div class="content">
-    
-  <div class="post">
-    <h1 class="post-title">404 — Page not found...</h1>
-
-    <div class="post-content">
-      <a href="https://blog.nik0.dev/">Back to home page&nbsp;→</a>
-    </div>
-
-  </div>
+    
+  <style>
+    .custom-about {
+      position: relative;
+      background-color: #111;
+      padding: 2rem;
+      border: 2px dashed #23b0ff;
+      color: #eee;
+      border-radius: 8px;
+      max-width: 800px;
+      margin: 0 auto;
+      font-family: monospace;
+      overflow: hidden;
+      text-shadow: 0 0 5px blue, 0 0 10px blue;
+    }
+
+    .custom-about::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 200%;
+     background-image: repeating-linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.03) 0px,
+        rgba(255, 255, 255, 0.03) 1px,
+        transparent 1px,
+        transparent 4px
+      ); 
+      animation: scanlines 4s linear infinite;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    @keyframes scanlines {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-50%); }
+    }
+
+    .custom-about h1,
+    .custom-about p {
+      position: relative;
+      z-index: 2;
+    }
+  </style>
+
+  <div class="custom-about">
+    <h1>About</h1>
+    <p>Hello! I'm a Site Reliability Engineer with a passion for automation and clean infrastructure.</p>
+    <p>This site shares insights on DevOps, cloud-native tools, and engineering workflows.</p>
+  </div>
 
   </div>
 
