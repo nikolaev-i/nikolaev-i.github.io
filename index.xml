@@ -13,8 +13,11 @@
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
       
       <guid>https://blog.nik0.dev/about/</guid>
-      <description></description>
-      <content></content>
+      <description>&lt;p&gt;{{ $styles := resources.Get &amp;ldquo;assets/custom.css&amp;rdquo; | fingerprint }}&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+      <content>&lt;p&gt;{{ $styles := resources.Get &amp;ldquo;assets/custom.css&amp;rdquo; | fingerprint }}&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</content>
     </item>
     
     <item>
